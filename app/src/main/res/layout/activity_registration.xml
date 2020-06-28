@@ -252,6 +252,7 @@
                     android:background="@drawable/ic_check_circle_green24dp"
                     android:layout_height="wrap_content"/>
                 <TextView
+                    android:id="@+id/registration_price"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/light_font"
@@ -272,6 +273,23 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/light_font"
                     android:text="@string/for_gov"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/ic_check_circle_green24dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light_font"
+                    android:text="@string/for_teachers"
                     android:textSize="18sp" />
 
             </LinearLayout>

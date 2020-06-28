@@ -197,7 +197,7 @@
                         android:layout_gravity="center"
                         android:layout_width="90dp"
                         android:layout_height="90dp"
-                        android:src="@drawable/tg"/>
+                        android:src="@drawable/ic_web_black_24dp"/>
 
                     <TextView
                         android:gravity="center"

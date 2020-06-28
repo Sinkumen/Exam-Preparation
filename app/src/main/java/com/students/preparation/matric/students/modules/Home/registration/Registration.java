@@ -8,6 +8,9 @@ import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.telephony.TelephonyManager;
+import android.text.SpannableString;
+import android.text.Spanned;
+import android.text.style.StrikethroughSpan;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -35,7 +38,7 @@ import com.students.preparation.matric.students.modules.Home.contact.ContactActi
 
 public class Registration extends AppCompatActivity {
 
-    TextView loginLink, registrationInfo, contactus_info;
+    TextView loginLink, registrationInfo, contactus_info,reg_price;
     Button registerBtn;
     String deviceId = "";
 
@@ -76,6 +79,7 @@ public class Registration extends AppCompatActivity {
         });
 
         contactus_info = findViewById(R.id.contactus_info);
+        reg_price = findViewById(R.id.registration_price);
         contactus_info.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -121,6 +125,12 @@ public class Registration extends AppCompatActivity {
 
        deviceId =getUniqueIdentifyer();
         //deviceId ="8.0";
+
+        String  price = "The registration fee for students is 150 99 birr";
+        SpannableString ss = new SpannableString(price);
+        StrikethroughSpan strike = new StrikethroughSpan();
+        ss.setSpan(strike,37,40, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        reg_price.setText(ss);
 
     }
 

@@ -276,9 +276,10 @@ Entrance preparation is a legal organization in Ethiopia founded by Yeabsra Teka
     <string name="model_exam_">Model Exam</string>
     <string name="enterance_exam_">Entrance Exam</string>
     <string name="teachers_page_">Teacher Page</string>
-    <string name="for_private"> 99 Birr for Addis Ababa private school students</string>
-    <string name="for_gov">50 Birr - for governmental school students in Adiss Ababa and for privet and Governmental school students out of Adiss Ababa</string>
-    <string name="register_device"> **Please Register using your own Device.**</string>
+    <string name="for_private"> The registration fee for students is 150 99 birr</string>
+    <string name="for_gov">if you registered once wait for approval.</string>
+    <string name="for_teachers">Teachers register for free(contact us for approval)</string>
+    <string name="register_device"> Use your own device to register</string>
 
     <string name="registration_amount">Registration Amount:</string>
     <string name="click_here_for_registration_info">Click here for Registration Info.</string>
